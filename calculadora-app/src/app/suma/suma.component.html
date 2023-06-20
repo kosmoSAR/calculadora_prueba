@@ -1,8 +1,23 @@
 <div>
-<p>Suma:</p>
-<label>Número 1:</label>
-<input type="number" id="number1" name="number1">
-<label>Número 2:</label>
-<input type="number1" id="number2" name="number2">
-<button>Sumar</button>
+  <div>
+    <p>CALCULADORA</p>
+  </div>
+  <div>
+    <label>Número 1:</label>
+    <input type="number" id="number1" name="number1" [(ngModel)]="numero1">
+  </div>
+  <div>
+    <select name="operacion" [(ngModel)]="operacionIndex">
+      <option *ngFor="let operacion of selectOperaciones" [value]="operacion.value">{{ operacion.name }}</option>
+    </select>
+  </div>
+  <div>
+    <label>Número 2:</label>
+    <input type="number" id="number2" name="number2" [(ngModel)]="numero2">
+  </div>
+  <div>
+    <button (click)="getResultado()">Operar</button>
+  </div>
+  <br>
+  <div>El resultado es: {{ resultado }}</div>
 </div>
