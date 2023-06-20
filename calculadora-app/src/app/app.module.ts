@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ResiduoComponent } from './residuo/residuo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResiduoComponent
   ],
   imports: [
     BrowserModule,
