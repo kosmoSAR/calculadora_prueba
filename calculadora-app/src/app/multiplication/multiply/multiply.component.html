@@ -1,6 +1,7 @@
 
-<div>
-    <h1>{{ title }}</h1>
+<h1>{{ title }}</h1>
+
+<form>
     <label>Inserte el primer número</label>
     <input 
         type="number" 
@@ -17,6 +18,7 @@
         name="number2"
         [(ngModel)]="number2"
     >
-    <button (click)="onMultiply()">Multiplicar</button>
-    <p>El resultado de la operación es: {{ result }}</p>
-</div>
+</form>
+
+<button (click)="onMultiply()">Multiplicar</button>
+<p>El resultado de la operación es: {{ result }}</p>

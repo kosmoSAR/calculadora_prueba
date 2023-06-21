@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 
 @Component({
@@ -7,12 +7,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./multiply.component.css']
 })
 
-export class MultiplyComponent {
+export class multiplyComponent {
   
   title = ' Multiply Component';
   number1:number = 0;
   number2:number = 0;
-  result: number = 0;
+  result:number = 0;
   
 
   onMultiply():void{

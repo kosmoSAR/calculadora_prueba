@@ -1,0 +1,8 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+form {
+    flex-wrap: wrap;
+}
