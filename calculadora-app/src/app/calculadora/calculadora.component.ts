@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-suma',
-  templateUrl: './suma.component.html',
-  styleUrls: ['./suma.component.css']
+  selector: 'app-calculadora',
+  templateUrl: './calculadora.component.html',
+  styleUrls: ['./calculadora.component.css']
 })
 
-export class SumaComponent {
+export class CalculadoraComponent {
 
   //Variables necesarias
   numero1: number = 0;

@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SumaComponent } from './suma/suma.component';
+import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SumaComponent
+    CalculadoraComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

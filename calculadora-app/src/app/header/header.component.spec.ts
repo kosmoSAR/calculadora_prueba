@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SumaComponent } from './suma.component';
+import { HeaderComponent } from './header.component';
 
-describe('SumaComponent', () => {
-  let component: SumaComponent;
-  let fixture: ComponentFixture<SumaComponent>;
+describe('HeaderComponent', () => {
+  let component: HeaderComponent;
+  let fixture: ComponentFixture<HeaderComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [SumaComponent]
+      declarations: [HeaderComponent]
     });
-    fixture = TestBed.createComponent(SumaComponent);
+    fixture = TestBed.createComponent(HeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
